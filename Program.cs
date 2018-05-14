@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,7 +32,7 @@ namespace ConsoleApp1
                 }
             }
 
-            Console.WriteLine("Your reuslt is : " + ((int)userInput[0]).ToString() + " - " + ((int)userInput[1]).ToString() + " = " + ((int)userInput[0] - (int)userInput[1]));
+            Console.WriteLine("Your reuslt is : " + userInput[0] + " - " + userInput[1] + " = " + ((int)userInput[0] - (int)userInput[1]));
 
             Console.Read();
         }
